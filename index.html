@@ -42,9 +42,9 @@
   .thmenu button.on { background:color-mix(in srgb, var(--accent) 16%, transparent); border-color:var(--accent); color:var(--accent); font-weight:600; }
 </style>
 <script>
-// 화면 테마: 이 사이트(tools.kornerstonekorea.com) 공통 설정 — 여기서 고르면 M.Tool · M2.Tool 에도 그대로 적용
+// 화면 테마: 이 사이트(tools.kornerstonekorea.com) 공통 설정 — 여기서 고르면 Q.Tool · M.Tool · M2.Tool 에도 그대로 적용
 //   tools.theme(공통) + 각 툴이 읽는 mtool.theme · m2tool.theme 에 같은 값을 저장 (화면 설정만, 데이터와 무관)
-var THEME_KEYS = ["tools.theme", "mtool.theme", "m2tool.theme"];
+var THEME_KEYS = ["tools.theme", "qtool.theme", "mtool.theme", "m2tool.theme"];
 (function () { var t = null; try { t = localStorage.getItem("tools.theme"); } catch (_) {}
   if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t); })();
 </script>
