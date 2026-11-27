@@ -24,7 +24,7 @@
   a.tool + a.tool { margin-top:10px; }
   a.tool:hover { border-color:var(--accent); }
   .tool b { display:block; font-size:16px; color:var(--accent); }
-  .tool span { font-size:13px; color:var(--muted); }
+  .tool span { font-size:15px; font-weight:600; color:var(--accent); }
   .foot { margin-top:20px; font-size:12px; color:var(--muted); text-align:center; }
   /* 화면 테마 메뉴 (⋮ → System / Light / Dark) — 각 툴과 같은 모양 */
   .thcorner { position:fixed; top:16px; right:16px; }
@@ -66,13 +66,13 @@ var THEME_KEYS = ["tools.theme", "mtool.theme", "m2tool.theme"];
   <h1>Tools</h1>
   <p class="brand">한국코너스톤어드바이져 업무 도구</p>
   <a class="tool" href="/qtool/">
-    <div><b>Q.Tool</b><span>Questionnaire Response Check</span></div>
+    <div><span>Questionnaire Response Check</span></div>
   </a>
   <a class="tool" href="/mtool/">
-    <div><b>M.Tool</b><span>Margin Analysis</span></div>
+    <div><span>Margin Analysis</span></div>
   </a>
   <a class="tool" href="/m2tool/">
-    <div><b>M2.Tool</b><span>Margin Difference Analysis</span></div>
+    <div><span>Margin Difference Analysis</span></div>
   </a>
 </main>
 <script>
